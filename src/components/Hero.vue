@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
 }
 </script>
 
@@ -17,5 +17,5 @@ export default {
         padding: 0rem;
         box-sizing: border-box;
     }
-
+    
 </style>

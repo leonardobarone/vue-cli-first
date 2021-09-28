@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Title msg="Si vola!"/>
-    <Hero />
+    <Hero src="immagine" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
     // HelloWorld,
     Title,
     Hero
-  }
+  },
 }
 </script>
 
