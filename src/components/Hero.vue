@@ -1,13 +1,16 @@
 <template>
   <div class="container">
-      <img src="../assets/dumbo.jpg" default alt="">
+      <img src="../assets/dumbo.jpg" default :alt="text">
   </div>
 </template>
 
 <script>
-export default {
-  name: 'Hero',
-}
+    export default {
+    name: 'Hero',
+    props: {
+        text: String
+    }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -17,5 +20,4 @@ export default {
         padding: 0rem;
         box-sizing: border-box;
     }
-    
 </style>

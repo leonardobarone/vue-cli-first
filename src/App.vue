@@ -2,7 +2,8 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Title msg="Si vola!"/>
-    <Hero src="immagine" />
+    <span v-for="(arro, index) in arr" :key="index"> {{arro}} </span>
+    <Hero text="ciao"/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -18,7 +19,12 @@ export default {
     // HelloWorld,
     Title,
     Hero
-  },
+  }, 
+  data: function() {
+    return {
+      arr: [1, 2, 3],
+    }
+  }
 }
 </script>
 
